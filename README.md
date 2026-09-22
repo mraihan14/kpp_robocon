@@ -101,7 +101,7 @@ Buka terminal baru Lalu jalankan kode berikut untuk menjalan program `publisher.
 ros2 run ros2_chat publisher
 ```
 ## Hasil Pengujian
-> Terima-kasih teruntuk Refi yang telah membantu dalam membuat asset gambar, diwaktu yang sangat mepet :)
+> Terima-kasih teruntuk Refi [(@rhxwl)](https://github.com/rhxwl]) yang telah membantu dalam membuat asset gambar, diwaktu yang sangat mepet :)
 > 
 Berikut adalah tampilan terminal saat ketiga program dijalankan :
 ![image](assets/terminal.png)
