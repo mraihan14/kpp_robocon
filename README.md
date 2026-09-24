@@ -83,21 +83,20 @@ Build project dengan menjalankan kode berikut :
 ```bash
 colcon build
 ```
-Lalu jalankan kode berikut untuk dapat menjalan program hasil build :
+
+Buka terminal baru di directory yang sama Lalu jalankan kode berikut untuk menjalan program `show.py`:
 ```bash
 source install/setup.bash
+ros2 run ros2_chat_py show
 ```
-
-Buka terminal baru Lalu jalankan kode berikut untuk menjalan program `show.py`:
+Buka terminal baru di directory yang sama Lalu jalankan kode berikut untuk menjalan program `subscriber.py`:
 ```bash
-run ros2_chat_py show
+source install/setup.bash
+ros2 run ros2_chat_py subscriber
 ```
-Buka terminal baru Lalu jalankan kode berikut untuk menjalan program `subscriber.py`:
+Buka terminal baru di directory yang sama Lalu jalankan kode berikut untuk menjalan program `publisher.cpp`:
 ```bash
-run ros2_chat_py subscriber
-```
-Buka terminal baru Lalu jalankan kode berikut untuk menjalan program `publisher.cpp`:
-```bash
+source install/setup.bash
 ros2 run ros2_chat publisher
 ```
 ## Hasil Pengujian
